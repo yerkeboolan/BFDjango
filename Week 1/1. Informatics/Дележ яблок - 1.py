@@ -1,5 +1,11 @@
 n = int(input())
 k = int(input())
 
-print(k // n)
-print(k % n)
+g = k/n;
+   s = k - (g*n);
+t = (k - s)/n;
+
+if k % n == 0:
+	return g
+elif k % n != 0:
+	return t 
