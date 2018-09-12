@@ -1,8 +1,0 @@
-# folder logs
-Include/
-Lib/
-Scripts/
-
-# files
-pip-selfcheck.json
-pyvenv.cfg
