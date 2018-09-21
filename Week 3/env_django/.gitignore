@@ -1,8 +1,0 @@
-# folder logs
-Include/
-Lib/
-Scripts/
-tcl/
-
-# files
-pip-selfcheck.json
