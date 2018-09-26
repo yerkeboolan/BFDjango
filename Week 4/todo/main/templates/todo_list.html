@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{%block body%}
+<hr>
+<h1>Task in "List1"</h1>
+<table class="table">
+    <tr>
+        <th>Task</th>
+        <th>Created</th>
+        <th>Due on</th>
+        <th>Owner</th>
+        <th>Mark</th>
+    </tr>
+    {% for task in todo_list %}
+        <tr>
+            <td><a href="">{{task.title}}</a></td>
+            <td>{{task.created}}</td>
+            <td>{{task.due_on}}</td>
+            <td>{{task.owner}}</td>
+            <td><button class="btn btn-info">{% if task.mark %}
+                Done
+            {% else %}
+                Not Done
+            {% endif %}</button></td>
+        </tr>
+    {% endfor %}
+</table>
+<hr>
+
+
+{%endblock%}
