@@ -1,13 +1,10 @@
 from datetime import datetime, timedelta
 from django.shortcuts import render
+from .models import Task
 
 
 def todos(request):
-    current_day = datetime.today()
-    todo_list = [dict(title="Task {}".format(i), created=current_day.strftime("%d/%m/%y"),
-                      due_on=(current_day + timedelta(days=3)).strftime("%d/%m/%y"), owner="admin", mark=True)
-                 for i in range(1, 5)
-                 ]
+    todo_list = Task.objects.all()
 
     context = {
         'todo_list': todo_list,
@@ -17,14 +14,7 @@ def todos(request):
 
 
 def completed_todos(request, index):
-    cur_day = datetime.today()
-    task = {
-        'title': "Task {}".format(index),
-        'created': cur_day.strftime("%d/%m/%y"),
-        'due_on': (cur_day + timedelta(days=3)).strftime("%d/%m/%y"),
-        'owner': "admin",
-        'mark': False
-    }
+    task = Task.objects.all() [int(index)]
     context = {
         'task': task
     }

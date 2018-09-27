@@ -7,7 +7,7 @@
         <th>Task</th>
         <th>Created</th>
         <th>Due on</th>
-        <th>Owner</th>
+        <th>Author</th>
         <th>Mark</th>
     </tr>
     
@@ -15,7 +15,7 @@
             <td><a href="">{{task.title}}</a></td>
             <td>{{task.created}}</td>
             <td>{{task.due_on}}</td>
-            <td>{{task.owner}}</td>
+            <td>{{task.author}}</td>
             <td><button class="btn btn-info">{% if task.mark %}
                 Done
             {% else %}
