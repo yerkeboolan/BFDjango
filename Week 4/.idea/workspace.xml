@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="57c3e7e8-dc5c-448a-ad48-a4f137e8499b" name="Default Changelist" comment="" />
+    <list default="true" id="57c3e7e8-dc5c-448a-ad48-a4f137e8499b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/todo/main/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/todo/main/models.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,13 +14,13 @@
     <session id="1711062074">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.open.time.8" value="2" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -39,24 +41,24 @@
         <counts>
           <entry key="Python Console" value="8" />
           <entry key="html" value="29" />
-          <entry key="py" value="150" />
+          <entry key="py" value="165" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="29" />
-          <entry key="Python" value="158" />
+          <entry key="Python" value="173" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/todo/main/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+            <state relative-caret-position="152">
+              <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -80,7 +82,6 @@
         <option value="$PROJECT_DIR$/todo/todo/urls.py" />
         <option value="$PROJECT_DIR$/todo/todo/settings.py" />
         <option value="$PROJECT_DIR$/todo/main/admin.py" />
-        <option value="$PROJECT_DIR$/todo/main/models.py" />
         <option value="$PROJECT_DIR$/todo/main/templates/base.html" />
         <option value="$PROJECT_DIR$/todo/main/templates/completed_todo.html" />
         <option value="$PROJECT_DIR$/todo/main/templates/todos_list.html" />
@@ -89,6 +90,7 @@
         <option value="$PROJECT_DIR$/todo/main/templates/todo_list.html" />
         <option value="$PROJECT_DIR$/todo/main/templates/completed_todo_list.html" />
         <option value="$PROJECT_DIR$/todo/main/views.py" />
+        <option value="$PROJECT_DIR$/todo/main/models.py" />
       </list>
     </option>
   </component>
@@ -104,7 +106,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -140,6 +141,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -257,15 +259,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/todo/main/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
+        <state relative-caret-position="266">
           <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/todo/main/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+        <state relative-caret-position="152">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
         </state>
       </provider>
     </entry>
