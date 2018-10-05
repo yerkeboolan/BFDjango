@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+{% block body %}
+<h1>Completed Todos in "List-1"</h1>
+<hr>
+<button class="btn btn-primary">Add</button>
+<table class="table">
+    <thead>
+        <tr>
+            <td>
+                <a href="{%url '_filter' 'title' %}">Title</a>
+            </td>
+            <td>
+                <a href="{%url '_filter' 'created' %}">Created</a>
+            </td>
+            <td>
+                <a href="{%url '_filter' 'due_on' %}">Due on</a>
+            </td>
+            <td>
+                <a href="{%url '_filter' 'owner' %}">Author</a>
+            </td>
+            <td>
+                <a href="{%url '_filter' 'mark' %}">Mark</a>
+            </td>
+        </tr>
+    </thead>
+    <tbody class="t_body">
+        {% for task in tasks %}
+            <tr>
+                <td>
+                    <a href="#">{{task.title}}</a>
+                </td>
+                <td>{{task.created|date:"d/m/Y"}}</td>
+                <td>{{task.due_on|date:"d/m/Y"}}</td>
+                <td>{{task.author.first_name}} {{task.author.last_name}}</td>
+                <td>
+                    <a href="{%url 'change_mark' task.id%}" class="btn btn-info">
+                        {% if task.mark%}
+                            Not Done
+                        {% else %}
+                            Done
+                        {% endif %}
+                    </a>
+                </td>
+            </tr>
+        {% endfor %}
+    </tbody>
+</table>
+<p>
+        <a href="{%url 'todos'%}" class="btn btn-warning">View All Tasks</a> 
+        <button class="btn btn-danger">Delete This Task</button>
+   
+</p>
+{% endblock body %}
