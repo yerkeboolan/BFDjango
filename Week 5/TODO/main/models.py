@@ -18,4 +18,4 @@ class Task(models.Model):
     mark = models.BooleanField("Mark", default=False)
 
     def __str__(self):
-        return self.title
+        return self.title + ' ' + self.author
