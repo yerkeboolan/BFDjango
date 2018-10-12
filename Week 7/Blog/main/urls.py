@@ -1,14 +1,13 @@
-from django.urls import path
-from main import views
+from django.urls import path, re_path
+from . import views
 
 urlpatterns = [
-    path('', views.home, name='home'),
-    path('authors/', views.author_list, name='author_list'),
-    path('authors/<int:author_id>', views.author_detail, name='author_detail'),
-    path('authors/new/', views.author_new, name='author_new'),
-
-    path('books/', views.book_list, name='book_list'),
-    path('show_color/', views.show_color),
-    path('set_color/', views.set_color),
+    path('posts/', views.post_list, name='post_list'),
+    path('posts/new_post/', views.new_post, name='new_post'),
+    path('todos/delete_all/', views.delete_all_posts, name='delete_all'),
+    re_path(r'^posts/update/(\d+)/', views.update_post, name='update_post'),
+    re_path(r'^posts/read_post/(\d+)/', views.post_detail, name='read_post'),
+    re_path(r'^posts/delete_post/(\d+)/', views.delete_post, name='delete_post'),
+    re_path(r'^todos/create_comment/(\d+)/', views.create_comment, name='create_comment'),
 
 ]

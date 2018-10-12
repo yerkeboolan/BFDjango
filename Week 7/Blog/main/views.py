@@ -1,71 +1,72 @@
-from django.shortcuts import render, redirect
-from django.http import Http404
-from main.models import Author
-from main.forms import AuthorForm
-from django.http import HttpResponse
-from django.contrib.auth.decorators import login_required
+
+from django.shortcuts import render, redirect, get_object_or_404
+from django.http import HttpResponse, Http404
+
+import datetime
+from datetime import timedelta
+from .models import Comment, Posts
+from .forms import PostForm, CommentForm
 
 
-def home(request):
-    return render(request, 'home.html')
-
-
-@login_required
-def author_list(request):
-    # if request.user.is_authenticated:
-    authors = Author.objects.all()
+def post_list(request):
+    post_list = [i for i in Posts.objects.all()]
     context = {
-        'authors': authors
+        'post_list': post_list
     }
-    return render(request, 'author/list.html', context)
-    # return redirect('login')
+    return render(request, 'Post/post_list.html', context)
 
 
-@login_required
-def author_detail(request, author_id):
+def post_detail(request, id):
     try:
-        author = Author.objects.get(id=author_id)
-    except Author.DoesNotExist:
-        raise Http404("Author not found")
+        post = Posts.objects.get(pk=id)
+    except Posts.DoesNotExist:
+        raise Http404("Post was not found")
     context = {
-        'author': author,
-        'books': author.books.all()
+        'posts': post
     }
-    return render(request, 'author/detail.html', context)
+    return render(request, 'Post/post_details.html', context)
 
-
-@login_required
-def author_new(request):
-    if request.method == 'POST':
-        form = AuthorForm(request.POST)
+def new_post(request):
+    form = PostForm(request.POST or None)
+    if request.method == "POST":
         if form.is_valid():
             form.save()
-            return redirect('author_list')
-    else:
-        form = AuthorForm()
+            return redirect('post_list')
     context = {
         'form': form
     }
-    return render(request, 'author/new.html', context)
+    return render(request, 'Post/post_form.html', context)
 
+def update_post(request, id):
+    updated_post = get_object_or_404(Posts, id=id)
+    form = PostForm(request.POST or None, instance=updated_post)
+    if form.is_valid():
+        form.save()
+        return redirect(post_list)
+    return render(request, 'Post/post_form.html', {'form': form})
 
-@login_required
-def book_list(request):
-    return render(request, 'book/list.html')
+def delete_post(request, id):
+    deleted_post = Posts.objects.get(pk=id)
+    deleted_post.delete()
+    return redirect(post_list)
 
+def delete_all_posts(request):
+    all_posts = Posts.objects.all()
+    all_posts.delete()
+    return redirect(post_list)
 
-def show_color(request):
-    if 'color' in request.COOKIES:
-        return HttpResponse('Your color: {}'.format(request.COOKIES['color']))
-    return HttpResponse("Your color empty")
-
-
-def set_color(request):
-    if 'color' in request.GET:
-        response = HttpResponse('Your color is now {}'.format(request.GET['color']))
-        response.set_cookie('color', request.GET['color'])
-        return response
+def create_comment(request, id):
+    post = get_object_or_404(Posts, pk=id)
+    if request.method == "POST":
+        form = CommentForm(request.POST)
+        if form.is_valid():
+            comment = form.save()
+            comment.post = post
+            comment.save()
+            return redirect('post_list')
     else:
-        return HttpResponse("You didn't give a color.")
-
-
+        form = CommentForm
+    context = {
+        'form': form
+    }
+    return render(request, 'Comment/add_comment.html', context)

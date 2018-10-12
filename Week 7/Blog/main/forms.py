@@ -1,8 +1,14 @@
-from django import forms
-from main.models import Author
+from django.db import models
+from django.forms import ModelForm
+from .models import Posts, Comment
 
 
-class AuthorForm(forms.ModelForm):
+class PostForm(ModelForm):
     class Meta:
-        model = Author
-        fields = ('first_name', 'last_name', 'email')
+        model = Posts
+        fields = {'title', 'author', 'content', 'date_published'}
+
+class CommentForm(ModelForm):
+    class Meta:
+        model = Comment
+        fields = {'email', 'created_date', 'comment_text'}

@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block body %}
+    <div class="col-md-2">
+            <div class="container-fluid col-md-8">
+                    <h5> ID:  {{ posts.id }}</h5>
+                    <p>Title: {{posts.title }}</p>
+                    <p>Author: {{ posts.author }}</p>
+                    <p>Content: {{posts.content}}</p>
+                    <p>Date published: {{posts.date_published}}</p>
+                    <p> Comments : {{posts.comments.count }}</p>
+            </div>
+    </div>
+
+
+{% endblock %}
