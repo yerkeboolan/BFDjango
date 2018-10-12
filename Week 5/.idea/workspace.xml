@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88628214-2f8a-4b40-a1f2-bb840679360e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Week 4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Week 4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week 4/todo/main/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Week 4/todo/main/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week 4/todo/todo/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Week 4/todo/todo/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blog/Blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/Blog/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blog/main/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/main/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blog/main/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/main/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blog/main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/main/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Week 7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Week 7/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Week 7/Blog/auth_/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Week 7/Blog/auth_/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,19 +23,19 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="7" />
-          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.40" value="1" />
           <entry key="project.open.time.41" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="html" value="12" />
-          <entry key="py" value="27" />
+          <entry key="py" value="32" />
           <entry key="sqlite3" value="1" />
         </counts>
       </usages-collector>
@@ -37,7 +43,7 @@
         <counts>
           <entry key="HTML" value="12" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="27" />
+          <entry key="Python" value="32" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -55,7 +61,20 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Blog/main/admin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -70,7 +89,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Blog/main/models.py" />
         <option value="$PROJECT_DIR$/Blog/Blog/settings.py" />
         <option value="$PROJECT_DIR$/TODO/TODO/settings.py" />
         <option value="$PROJECT_DIR$/TODO/main/views.py" />
@@ -89,6 +107,11 @@
         <option value="$PROJECT_DIR$/TODO/main/templates/task/new.html" />
         <option value="$PROJECT_DIR$/TODO/main/templates/base.html" />
         <option value="$PROJECT_DIR$/TODO/main/models.py" />
+        <option value="$PROJECT_DIR$/Blog/Blog/urls.py" />
+        <option value="$PROJECT_DIR$/Blog/main/views.py" />
+        <option value="$PROJECT_DIR$/Blog/main/urls.py" />
+        <option value="$PROJECT_DIR$/Blog/main/models.py" />
+        <option value="$PROJECT_DIR$/Blog/main/admin.py" />
       </list>
     </option>
   </component>
@@ -116,6 +139,18 @@
               <item name="Week 5" type="462c0819:PsiDirectoryNode" />
               <item name="Blog" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Week 5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Week 5" type="462c0819:PsiDirectoryNode" />
+              <item name="Blog" type="462c0819:PsiDirectoryNode" />
+              <item name="Blog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Week 5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Week 5" type="462c0819:PsiDirectoryNode" />
+              <item name="Blog" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -124,7 +159,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Week 7" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -153,6 +188,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18450184" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -227,20 +263,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/main/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" selection-start-column="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/main/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
         </state>
       </provider>
     </entry>
@@ -346,6 +368,46 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
           <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blog/Blog/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding>
+            <element signature="e#628#660#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blog/main/views.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blog/main/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blog/main/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" column="94" selection-start-line="27" selection-start-column="94" selection-end-line="27" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blog/main/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

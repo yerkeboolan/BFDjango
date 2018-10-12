@@ -2,15 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b21547ed-13d9-4a23-8f29-be6664c09219" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Midterm/Midterm/Task1/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Week 4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Week 4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week 4/todo/main/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Week 4/todo/main/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week 4/todo/todo/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Week 4/todo/todo/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Week 5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Week 5/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blog/auth_/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/auth_/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TODO/TODO/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/TODO/TODO/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TODO/auth_/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/TODO/auth_/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TODO/main/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/TODO/main/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TODO/main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/TODO/main/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week 5/Blog/Blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Week 5/Blog/Blog/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week 5/Blog/main/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Week 5/Blog/main/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week 5/Blog/main/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Week 5/Blog/main/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week 5/Blog/main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Week 5/Blog/main/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,7 +25,8 @@
           <entry key="project.open.time.0" value="5" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -54,12 +54,12 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TODO/main/forms.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
               </folding>
@@ -132,7 +132,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../BF-Django-/Week_6" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Week 5" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -161,6 +161,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24986821" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -288,9 +289,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="665">
           <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -298,9 +296,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -308,9 +303,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -332,9 +324,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -342,16 +331,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1881">
           <caret line="99" column="10" selection-start-line="99" selection-start-column="10" selection-end-line="99" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#64#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TODO/main/forms.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
           </folding>

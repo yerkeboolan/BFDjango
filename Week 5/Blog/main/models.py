@@ -1,32 +1,28 @@
 from django.db import models
 
-class Blog(models.Model):
-    name = models.CharField(max_length=100)
-    tagline = models.TextField()
-
-    def __str__(self):
-        return self.name
-
-
-class Author(models.Model):
-    first_name = models.CharField(max_length=100)
-    last_name = models.CharField(max_length=100)
-    email = models.EmailField()
-
-    def __str__(self):
-        return self.email
-
-class Entry(models.Model):
-    blog = models.ForeignKey(Blog, on_delete=models.CASCADE)
-    headline = models.CharField(max_length=255)
-    body_text = models.TextField()
-    pub_date = models.DateField()
-    mod_date = models.DateField()
-    authors = models.ManyToManyField(Author)
-    n_comments = models.IntegerField()
-    n_pingbacks = models.IntegerField()
-    rating = models.IntegerField()
+class User(models.Model):
+    first_name = models.CharField("First Name", max_length=50)
+    last_name = models.CharField("Last Name", max_length = 50)
+    nickname = models.CharField("Nickname", max_length=50)
+    birth_date = models.DateField('Birth Date', auto_now=False, auto_now_add=False)
+    email = models.EmailField("Email Adress", max_length=254)
+    password = models.CharField("Password", max_length=50)
 
 
-    def __str__(self):
-        return self.headline
+class Author(User):
+    rating = models.FloatField("Rating")
+
+
+class Follower(User):
+    authors = models.ManyToManyField(Author, verbose_name= "authors")
+
+
+
+class Text(models.Model):
+    content = models.TextField("Content")
+    author = models.ManyToManyField(Author, verbose_name="authors")
+    rating = models.FloatField("Rating")
+
+class Post(Text):
+    title = models.CharField("Title", max_length=50)
+    date_published = models.DateTimeField("Date Published", auto_now=True, auto_now_add=False)
