@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b21547ed-13d9-4a23-8f29-be6664c09219" name="Default Changelist" comment="" />
+    <list default="true" id="b21547ed-13d9-4a23-8f29-be6664c09219" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Midterm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Midterm/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blog/main/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/main/models.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,13 +15,13 @@
     <session id="1121521562">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
-          <entry key="project.open.time.0" value="5" />
+          <entry key="project.closed" value="10" />
+          <entry key="project.open.time.0" value="6" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -34,19 +37,29 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="html" value="10" />
-          <entry key="py" value="49" />
+          <entry key="py" value="54" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="10" />
-          <entry key="Python" value="49" />
+          <entry key="Python" value="54" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TODO/main/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -71,11 +84,11 @@
         <option value="$PROJECT_DIR$/TODO/main/views.py" />
         <option value="$PROJECT_DIR$/TODO/TODO/urls.py" />
         <option value="$PROJECT_DIR$/TODO/main/urls.py" />
-        <option value="$PROJECT_DIR$/Blog/main/models.py" />
         <option value="$PROJECT_DIR$/Blog/Blog/urls.py" />
         <option value="$PROJECT_DIR$/Blog/main/views.py" />
         <option value="$PROJECT_DIR$/Blog/main/urls.py" />
         <option value="$PROJECT_DIR$/Blog/main/forms.py" />
+        <option value="$PROJECT_DIR$/Blog/main/models.py" />
       </list>
     </option>
   </component>
@@ -91,7 +104,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -108,6 +120,12 @@
               <item name="Week 7" type="b2602c69:ProjectViewProjectNode" />
               <item name="Week 7" type="462c0819:PsiDirectoryNode" />
               <item name="Blog" type="462c0819:PsiDirectoryNode" />
+              <item name="auth_" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Week 7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Week 7" type="462c0819:PsiDirectoryNode" />
+              <item name="Blog" type="462c0819:PsiDirectoryNode" />
               <item name="Blog" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -116,14 +134,32 @@
               <item name="Blog" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Week 7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Week 7" type="462c0819:PsiDirectoryNode" />
+              <item name="TODO" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Week 7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Week 7" type="462c0819:PsiDirectoryNode" />
+              <item name="TODO" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Week 7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Week 7" type="462c0819:PsiDirectoryNode" />
+              <item name="TODO" type="462c0819:PsiDirectoryNode" />
+              <item name="TODO" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Midterm" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -152,6 +188,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24986821" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -209,20 +246,10 @@
     <entry file="file://$PROJECT_DIR$/Blog/main/templates/book/list.html" />
     <entry file="file://$PROJECT_DIR$/Blog/main/templates/author/list.html" />
     <entry file="file://$PROJECT_DIR$/Blog/main/templates/author/detail.html" />
-    <entry file="file://$PROJECT_DIR$/Blog/auth_/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="29" column="28" lean-forward="true" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TODO/TODO/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-228" />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/auth_/models.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Blog/auth_/admin.py">
       <provider selected="true" editor-type-id="text-editor" />
@@ -262,13 +289,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TODO/main/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -334,13 +354,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/main/models.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Blog/main/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blog/auth_/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="29" column="28" lean-forward="true" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blog/auth_/models.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blog/main/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="28" column="54" selection-start-line="28" selection-start-column="54" selection-end-line="28" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TODO/main/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
         </state>
       </provider>
     </entry>
