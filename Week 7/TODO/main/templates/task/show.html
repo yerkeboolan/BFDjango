@@ -1,0 +1,55 @@
+{% extends "../base.html" %}
+{% block body %}
+<hr>
+<h1>Tasks in List "{{ilist.name}}"</h1>
+<hr>
+<form action="" method="get">
+    <input type="text" id="">
+    <button type="submit" class="btn btn-primary">Search</button>
+</form>
+<hr>
+<form action="{%url 'add_task'%}" method="get">
+        <button type="submit" class="btn btn-primary">Add</button>
+</form>
+    
+<hr>
+<table class="table">
+    <thead class="thead">
+        <td>Title</td>
+        <td>Created</td>
+        <td>Due on</td>
+        <td>Mark</td>
+        <td>Delete</td>
+        <td>Update</td>
+    </thead>
+    <tbody class="tbody">
+        {% for task in tasks %}
+            <tr>
+                <td><a href="">{{task.title}}</a></td>
+                <td>{{task.created | date:"d/m/Y"}}</td>
+                <td>{{task.due_on | date:"d/m/Y"}}</td>
+                <td>
+                    <a href="{%url 'change_mark' task.id%}" class="btn btn-info">
+                        {% if task.mark %}
+                            Not Done
+                        {% else %}
+                            Done
+                        {% endif %}
+                    </a>
+                </td>
+                <td>
+                    <a href="{%url 'delete_task' task.id%}" class="btn btn-danger"> 
+                        Delete
+                    </a>
+                </td>
+                
+                <td>
+                    <a href="{%url 'update_task' task.id%}" class="btn btn-warning">
+                        Update
+                    </a>
+                </td> 
+            </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock body %}

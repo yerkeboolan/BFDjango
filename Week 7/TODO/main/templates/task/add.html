@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block body %}
+<hr>
+<h1>Add New Task</h1>
+<form action="{%url 'add_task' %}" method="post">
+    {% csrf_token %}
+    <table class="table">
+        {{form.as_table}}
+    </table>
+    <button type="submit" class="btn btn-primary">Add</button>
+</form>
+{% endblock body %}

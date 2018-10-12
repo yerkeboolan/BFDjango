@@ -1,0 +1,42 @@
+{% extends "../base.html" %}
+{% block body %}
+<hr>
+<h1>TODO Lists</h1>
+<hr>
+<form action="" method="get">
+    <input type="text" id="">
+    <button type="submit" class="btn btn-primary">Search</button>
+</form>
+<hr>
+<form action="{%url 'add_todo_list'%}" method="get">
+        <button type="submit" class="btn btn-primary">Add</button>
+</form>
+    
+<hr>
+<table class="table">
+    <thead class="thead">
+        <td>Name</td>
+        <td>Date Created</td>
+        <td>Delete</td>
+        <td>Update</td>
+    </thead>
+    <tbody class="tbody">
+        {% for list in todo_lists %}
+            <tr>
+                <td><a href="{%url 'tasks' list.id%}">{{list.name}}</a></td>
+                <td>{{list.created | date:"d/m/Y"}}</td>
+                <td>
+                    <a href="{%url 'delete_todo_list' list.id%}" class="btn btn-danger">
+                        Delete
+                    </a>
+                </td>
+                <td>
+                    <a href="{%url 'update_todo_list' list.id%}" class="btn btn-warning">
+                        Update
+                    </a>
+                </td>
+            </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock body %}
