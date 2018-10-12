@@ -2,10 +2,10 @@ from django.shortcuts import render
 from .models import Restaurant
 
 def restaurants(request):
-    res = Restaurant.objects.all()
+    rests = Restaurant.objects.all()
 
     context = {
-        'res': res
+        'rests': rests
     }
 
     return render(request, 'base.html', context)
