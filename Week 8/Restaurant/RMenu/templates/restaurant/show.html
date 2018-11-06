@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+{% block body %}
+<h1>All Restaurants</h1>
+<hr>
+{% if user.is_authenticated %}
+<form action="{%url 'create_restaurant'%}" method="get">
+    <button type="submit" class="btn btn-primary">Add</button>
+</form>
+<hr>
+{% endif %}
+
+<table class="table">
+    <thead>
+        <td>Name</td>
+        <td>Telephone</td>
+        <td>City</td>
+        <td>User</td>
+        {% if user.is_authenticated %}
+            <td>Update</td>
+            <td>Delete</td>
+        {% endif %}
+    </thead>
+    <tbody>
+        {% for rest in restaurants %}
+            <tr>
+                <td><a href="">{{rest.name}}</a></td>
+                <td>{{rest.telephone}}</td>
+                <td>{{rest.city}}</td>
+                <td>{{rest.user.username}}</td>
+                {% if user.is_authenticated %}
+                    <td>
+                        {% if user.username == rest.user.username %}
+
+                            <form action="{%url 'update_restaurant' rest.id%}" method="get">
+                                <button type="submit" class="btn btn-warning">Update</button>
+                            </form>
+                        
+                        {% endif %}
+                    </td>
+                    <td>
+                        {% if user.username == rest.user.username %}
+                            <form action="{%url 'delete_restaurant' rest.id%}" method="get">
+                                <button type="submit" class="btn btn-danger">Delete</button>
+                            </form>
+                        {% endif %}
+                    </td>
+                {% endif %}
+            </tr>
+
+        {% endfor %}
+    </tbody>
+
+</table>
+
+{% endblock body %}

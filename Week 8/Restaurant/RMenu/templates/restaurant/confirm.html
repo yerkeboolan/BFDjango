@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block body %}
+
+<h1>Are you sure, you want to delete "{{restaurant.name}}"?</h1>
+<hr>
+<form action="{%url 'delete_restaurant' pk=restaurant.id %}" method="post">
+    {% csrf_token %}
+    <button type="submit" class="btn btn-danger">Confirm</button>
+    <a href="{%url 'show_restaurants'%}" class="btn btn-warning">Cancel</a>
+</form>
+
+{% endblock body %}
