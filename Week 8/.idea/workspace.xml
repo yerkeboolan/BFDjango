@@ -2,85 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f2bafb2-396f-4c2e-9853-5e12d111ffc3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Restaurant/RMenu/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Restaurant/RMenu/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Restaurant/auth_/templates/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Restaurant/auth_/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Midterm/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Midterm/.idea/Midterm.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Midterm/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Midterm/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Midterm/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Midterm/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Midterm/Midterm/Midterm/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Midterm/Midterm/Midterm/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Midterm/Midterm/Midterm/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Midterm/Midterm/Midterm/wsgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Midterm/Midterm/Task1/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Midterm/Midterm/Task1/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Midterm/Midterm/Task1/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Midterm/Midterm/Task1/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Midterm/Midterm/Task1/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Midterm/Midterm/Task1/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Midterm/Midterm/Task1/static/css/bootstrap-grid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Midterm/Midterm/Task1/static/css/bootstrap-grid.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Midterm/Midterm/Task1/static/css/bootstrap-grid.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Midterm/Midterm/Task1/static/css/bootstrap-grid.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Midterm/Midterm/Task1/static/css/bootstrap-reboot.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Midterm/Midterm/Task1/static/css/bootstrap-reboot.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Midterm/Midterm/Task1/static/css/bootstrap-reboot.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Midterm/Midterm/Task1/static/css/bootstrap-reboot.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Midterm/Midterm/Task1/static/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Midterm/Midterm/Task1/static/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Midterm/Midterm/Task1/static/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Midterm/Midterm/Task1/static/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Midterm/Midterm/Task1/static/js/bootstrap.bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Midterm/Midterm/Task1/static/js/bootstrap.bundle.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Midterm/Midterm/Task1/static/js/bootstrap.bundle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Midterm/Midterm/Task1/static/js/bootstrap.bundle.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Midterm/Midterm/Task1/static/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Midterm/Midterm/Task1/static/js/bootstrap.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Midterm/Midterm/Task1/static/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Midterm/Midterm/Task1/static/js/bootstrap.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Midterm/Midterm/Task1/templates/base.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Midterm/Midterm/Task1/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Midterm/Midterm/Task1/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Midterm/Midterm/Task1/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Midterm/Midterm/auth_/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Midterm/Midterm/auth_/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Midterm/Midterm/auth_/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Midterm/Midterm/auth_/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Midterm/Midterm/auth_/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Midterm/Midterm/auth_/static/css/bootstrap-grid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Midterm/Midterm/auth_/static/css/bootstrap-grid.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Midterm/Midterm/auth_/static/css/bootstrap-grid.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Midterm/Midterm/auth_/static/css/bootstrap-grid.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Midterm/Midterm/auth_/static/css/bootstrap-reboot.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Midterm/Midterm/auth_/static/css/bootstrap-reboot.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Midterm/Midterm/auth_/static/css/bootstrap-reboot.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Midterm/Midterm/auth_/static/css/bootstrap-reboot.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Midterm/Midterm/auth_/static/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Midterm/Midterm/auth_/static/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Midterm/Midterm/auth_/static/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Midterm/Midterm/auth_/static/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Midterm/Midterm/auth_/static/js/bootstrap.bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Midterm/Midterm/auth_/static/js/bootstrap.bundle.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Midterm/Midterm/auth_/static/js/bootstrap.bundle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Midterm/Midterm/auth_/static/js/bootstrap.bundle.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Midterm/Midterm/auth_/static/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Midterm/Midterm/auth_/static/js/bootstrap.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Midterm/Midterm/auth_/static/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Midterm/Midterm/auth_/static/js/bootstrap.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Midterm/Midterm/auth_/templates/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Midterm/Midterm/auth_/templates/register.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Midterm/Midterm/auth_/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Midterm/Midterm/auth_/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Midterm/Midterm/auth_/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Midterm/Midterm/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Midterm/Midterm/manage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Week 7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Week 7/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -92,8 +14,10 @@
     <session id="925008058">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -165,7 +89,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -194,11 +117,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Week 9" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -229,13 +153,9 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24986821" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -243,6 +163,10 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -270,12 +194,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="608">
           <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-            <marker date="1541506654968" expanded="true" signature="156:161" ph="..." />
-            <marker date="1541506654968" expanded="true" signature="451:456" ph="..." />
-            <marker date="1541506654968" expanded="true" signature="982:987" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -283,13 +201,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-            <marker date="1541507187300" expanded="true" signature="132:137" ph="..." />
-            <marker date="1541507187300" expanded="true" signature="257:262" ph="..." />
-            <marker date="1541507187300" expanded="true" signature="412:417" ph="..." />
-            <marker date="1541507187300" expanded="true" signature="550:555" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -304,15 +215,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1064">
           <caret line="56" column="42" selection-start-line="56" selection-start-column="42" selection-end-line="56" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#44#0" expanded="true" />
-            <marker date="1541507854638" expanded="true" signature="490:495" ph="..." />
-            <marker date="1541507854638" expanded="true" signature="557:562" ph="..." />
-            <marker date="1541507854638" expanded="true" signature="756:761" ph="..." />
-            <marker date="1541507854638" expanded="true" signature="1121:1126" ph="..." />
-            <marker date="1541507854638" expanded="true" signature="1280:1285" ph="..." />
-            <marker date="1541507854638" expanded="true" signature="1509:1514" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -320,9 +222,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -336,9 +235,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" column="104" selection-start-line="9" selection-start-column="104" selection-end-line="9" selection-end-column="104" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -352,9 +248,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -362,9 +255,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
-          <folding>
-            <element signature="e#634#666#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
