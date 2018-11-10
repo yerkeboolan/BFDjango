@@ -13,7 +13,6 @@ def register(request):
     }
     return render(request, 'register.html', context)
 
-
 def login(request):
     if request.method == 'POST':
         username = request.POST['username']
@@ -24,9 +23,9 @@ def login(request):
             return redirect('index')
         else:
             error = "username or password incorrect"
-            return render(request, 'login.html', {'error': error})
+            return render(request, "login.html", {'error': error})
     else:
-        return render(request, 'login.html')
+        return render(request, "login.html")
 
 
 def logout(request):

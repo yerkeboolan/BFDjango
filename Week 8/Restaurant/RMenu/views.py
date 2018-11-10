@@ -49,7 +49,7 @@ class RestaurantUpdateView(UpdateView):
 class RestaurantDeleteView(DeleteView):
     login_required = True
     model = Restaurant
-    template_name = "restaurant/delete.html"
+    template_name = "restaurant/confirm.html"
     success_message = "Thing was deleted successfully"
 
 
